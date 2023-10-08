@@ -1,0 +1,8 @@
+p = str(input('Digite algo: '))
+print(type(p))
+print(p.isnumeric())
+print(p.isalnum())
+print(p.isalpha())
+print(p.isupper())
+print(p.islower())
+print(p.isdecimal())
