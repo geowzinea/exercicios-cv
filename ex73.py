@@ -1,0 +1,12 @@
+times = ('Palmeiras', 'Botafogo', 'Grêmio', 'Bragantino', 'Flamengo', 'Atlêtico-MG', 'Athletico-PR', 'Fluminense', 'São Paulo', 'Cuiabá', 'Fortaleza', 'Internacional', 'Santos', 'Corinthians', 'Bahia', 'Vasco da Gama', 'Cruzeiro', 'Goiás', 'Coritiba', 'América-MG')
+saopaulo = times.index('São Paulo') + 1
+print('=-=' * 20)
+print('\033[1;33mCAMPEONATO BRASILEIRO DE FUTBOL\033[m')
+print('=-=' * 20)
+print(f'Os 5 primeiros colocados são:  \033[1;32m{times[:5]}\033[m')
+print('=' * 90)
+print(f'Os 4 últimos colocados são: \033[1;31m{times[15:21]}\033[m')
+print('=' * 90)
+print(f'Times em Ordem Alfabética {sorted(times)}')
+print('=' * 90)
+print(f'São Paulo está na \033[1;35m{saopaulo}\033[m posição.')
